@@ -89,6 +89,17 @@ function addComment() {
     }
 }
 
+function adjustViewsWidth(input) {
+    input.style.width = '100px';
+    input.style.width = Math.min(input.scrollWidth + 2, 300) + 'px';
+}
+
+expandingInput.addEventListener('input', function() {
+    adjustViewsWidth(expandingInput);
+});
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     let videoURL = localStorage.getItem("videoURL");
     console.log("Video Local URL:", videoURL); // Debugging log
@@ -100,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 });
 
+adjustViewsWidth(expandingInput);
 commentButton.addEventListener('click', addComment);
-
 circles.forEach(randomizeCircleColor);
 circleFaces.forEach(randomizeCircleFace);
