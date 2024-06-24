@@ -1,0 +1,83 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: rgb(245, 215, 115);
+    color: rgb(245, 245, 205);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+}
+
+hr {
+    width: 550px;
+    border-style: solid;
+    border-color: rgb(245, 245, 205);
+}
+
+.center {
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 605px;
+    height: 280px;
+}
+
+.content {
+    flex: 1;
+    width: 300px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.input-container {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.nameinput {
+    display: inline-block;
+    background-color: rgb(245, 215, 115);
+    color: rgb(245, 245, 205);
+    border: 2px solid transparent;
+    outline: 5px solid transparent;
+    /*outline: 5px solid rgb(245, 245, 205);*/
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.nameinput::placeholder {
+    color: rgb(245, 245, 205);
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-image {
+    background-size: auto;
+    background-position: center;
+}
+
+
+.button {
+    display: inline-block;
+    background-color: rgb(235, 215, 90);
+    color: rgb(245, 245, 205);
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid transparent;
+    outline: 5px solid rgb(245, 245, 205);
+    font-weight: bold;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(245, 225, 135)
+}

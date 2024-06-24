@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpöökTube</title>
+    <link rel="shortcut icon" href="images/icons/spooktubeSqaure.svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="video.js" defer></script>
+</head>
+<body>
+    <div class="bodypixels"></div> <!--pixels-->
+
+    <div class="topbar"> <!--topbar-->
+        <a href="index.html"><img src="images/icons/spooktube_IconTransparent.png" alt="SpöökTube" class="topbarlogo"></a>
+    </div> <!--topbar end-->
+
+    <div class="video-container"> <!--video-->
+        <video controls autoplay preload="auto">
+            <source src="videos/this has to go viral.webm" type="video/webm" id="videoPlayer">
+            Your browser does not support the video tag.
+        </video>
+    </div> <!--video end-->
+
+    <div class="video-container-mimic"></div>
+
+    <div class="video-info-container"> <!--info-->
+        <div style="padding: 0px 15px;">
+            <h1>VIDEO TITLE</h1>
+            <h2>COMMENTS</h2>
+
+            <div class="comments-container">
+                
+                <!--comment (copy paste this comment and change the text or face)-->
+                <div class="comment-container"> 
+                    <div class="circle-container">
+                        <div class="circle" style="width: 50px; height: 50px; aspect-ratio: 1/1;">
+                            <div class="circle-face">:)</div> 
+                        </div>
+
+                        <div class="heart-container">
+                            <img src="images/icons/heart.svg" alt="heart" class="heart">
+                            <div class="heart-text">69</div>
+                        </div>
+                    </div>
+                    
+                    <div style="padding: 0px 10px; width: 100%;">
+                        <p>i hope to see more videos like this!</p>
+                    </div>
+                </div> <!--comment End-->
+
+            </div>
+        </div>
+        
+        
+        <div class="views-container" style="font-size: 20px;">
+            <b>VIEWS: 0</b>
+            <input type="text" placeholder="add a local comment" id="comment-input" name="comment-input" class="comment-input">
+            <input type="submit" value="COMMENT" id="comment-button" name="comment-button" class="comment-button">
+        </div>
+
+    </div> <!--info end-->
+
+    
+
+    <!--stuff-->
+</html>
