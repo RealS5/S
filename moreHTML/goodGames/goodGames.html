@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Games</title>
+    <link rel="stylesheet" href="goodGames.css">
+    <script src="goodGames.js" defer></script>
+</head>
+<body>
+    <main class="maintitle">
+        GOOD GAMES?
+    </main>
+    THIS ONLY INCLUDES GAMES I HAVE PLAYED!
+    <div id="total-games">TOTAL GAMES: ????</div>
+
+    <div>
+        <label for="sortrank">Sort by:</label>
+        <select id="sortrank">
+            <option value="random">Random</option>
+            <option value="newest">Newest to Oldest</option>
+            <option value="oldest">Oldest to Newest</option>
+            <option value="srank">S's rank</option>
+        </select>
+    </div>
+    <div>
+        <label for="sortmoney">money?: </label>
+        <select id="sortmoney">
+            <option value="any">Any</option>
+            <option value="paid">Paid</option>
+            <option value="free">Free</option>
+        </select>
+    </div>
+    <div>
+        platforms:
+
+        <input type="checkbox" id="steam" value="steam" checked>
+        <label for="steam">Steam</label>
+        
+        <input type="checkbox" id="epicgames" value="epicgames" checked>
+        <label for="epicgames">Epic Games</label>
+
+        <input type="checkbox" id="itchio" value="itchio" checked>
+        <label for="itchio">itch.io</label>
+
+        <input type="checkbox" id="googleplay" value="googleplay" checked>
+        <label for="googleplay">Google Play (android)</label>
+
+        <input type="checkbox" id="appstore" value="appstore" checked>
+        <label for="appstore">App Store (ios)</label>
+
+        <input type="checkbox" id="roblox" value="roblox" checked>
+        <label for="roblox">Roblox</label>
+
+        <input type="checkbox" id="unknown" value="unknown" checked>
+        <label for="unknown">Unknown</label>
+
+         | i hope to add more games
+    </div>
+
+    <div id="game-list">
+        <!-- game list -->
+         <div class="game">
+
+            <div class="game-info">
+
+                <div class="game-title">
+                    <img class="game-icon" src="games/StickFightTheGame/icon.ico" alt="Stick Fight: The Game">
+                    GAME TITLE
+                </div>
+                <p>description</p>
+
+                <div class="game-littledetails">
+                    creator: me • release date: 8/12/2036 • singleplayer • rank: 1 • steam
+                </div>
+
+            </div>
+
+            <iframe class="game-gameplay" src="https://www.youtube-nocookie.com/embed/YBlEslDQSEQ?si=-1YwHhSb0InJ1Nbq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div class="button-container">
+                <a class="button-play" href="steam://launch/674940/Dialog">
+                    PLAY
+                </a>
+            </div>
+            
+
+         </div>
+    </div>
+
+    <div class="button-container" style="width: 99%;">
+        <button id="button-load">
+            Load More
+            <br>
+            <div style="font-size: 25px;">if on random it will randomize it again</div>
+            
+        </button>
+    </div>
+
+    
+
+
+</body>
+</html>
