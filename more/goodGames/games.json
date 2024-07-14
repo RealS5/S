@@ -20,7 +20,7 @@
         "money": true,
         "rank": 0,
         "platforms": ["steam"],
-        "youtubeId": "https://www.youtube.com/embed/3x2nbORo2A8?si=GkGxh3nP-ExBxBsF",
+        "youtubeId": "https://www.youtube.com/embed/3x2nbORo2A8?si=7SZmgX5B-oDDNyCl&amp;start=60",
         "playLink": "https://store.steampowered.com/app/1557740/"
     },
     {
@@ -32,7 +32,7 @@
         "money": true,
         "rank": 0,
         "platforms": ["steam"],
-        "youtubeId": "https://www.youtube.com/embed/1LTS0Me6MR4?si=iMMG_8J8hAnh6baO",
+        "youtubeId": "https://www.youtube.com/embed/1LTS0Me6MR4?si=uJl1nEUV4IhIHCdY&amp;start=35",
         "playLink": "https://store.steampowered.com/app/2881650/"
     },
     {
@@ -56,7 +56,7 @@
         "money": false,
         "rank": 0,
         "platforms": ["steam"],
-        "youtubeId": "https://www.youtube.com/embed/Dkn9uunxmwM?si=jQIzkUbkap4QnEgG",
+        "youtubeId": "https://www.youtube.com/embed/Dkn9uunxmwM?si=za9miPhxzK5XoYCm&amp;start=15",
         "playLink": "https://store.steampowered.com/app/2021910/"
     },
     {
@@ -104,7 +104,7 @@
         "money": true,
         "rank": 0,
         "platforms": ["steam", "itchio"],
-        "youtubeId": "https://www.youtube.com/embed/akYfZqkxrK8?si=K6YHklpItVlfiCcJ",
+        "youtubeId": "https://www.youtube.com/embed/akYfZqkxrK8?si=odgyr8bRRycKZLPb&amp;start=17",
         "playLink": "https://store.steampowered.com/app/2085540/"
     },
     {
@@ -116,7 +116,7 @@
         "money": false,
         "rank": 0,
         "platforms": ["steam"],
-        "youtubeId": "https://www.youtube.com/embed/bHgpKcR_ibM?si=m9BTL-_hZO2yZePl",
+        "youtubeId": "https://www.youtube.com/embed/bHgpKcR_ibM?si=ryVoBbzftM5bWYmZ&amp;start=31",
         "playLink": "https://store.steampowered.com/app/823130/"
     },
     {
@@ -152,7 +152,7 @@
         "money": false,
         "rank": 0,
         "platforms": ["steam"],
-        "youtubeId": "https://www.youtube.com/embed/0XJ9lsF9TG0?si=YdW-R_Hj_SfYqnuG",
+        "youtubeId": "https://www.youtube.com/embed/0XJ9lsF9TG0?si=6FndnvrXM_U4VsGg&amp;start=3",
         "playLink": "https://store.steampowered.com/app/1280770/"
     },
     {
@@ -176,7 +176,7 @@
         "money": false,
         "rank": 0,
         "platforms": ["steam", "itchio", "googleplay", "appstore"],
-        "youtubeId": "https://www.youtube.com/embed/baOM03vUPJo?si=n_2LaD0LyXaQoFEz",
+        "youtubeId": "https://www.youtube.com/embed/bEuDMGIfbQM?si=aFF2ziksfdsG5hEt&amp;start=8",
         "playLink": "https://store.steampowered.com/app/1064610/"
     },
     {
@@ -236,7 +236,7 @@
         "money": false,
         "rank": 0,
         "platforms": ["itchio"],
-        "youtubeId": "https://www.youtube.com/embed/i8qYwFTkSLc?si=817iD11GEVYPYA8z",
+        "youtubeId": "https://www.youtube.com/embed/i8qYwFTkSLc?si=E1Us8pT-w7wYIak1&amp;start=5",
         "playLink": "https://paperhatproductions.itch.io/kickingballs"
     },
     {
@@ -273,7 +273,19 @@
         "rank": 0,
         "platforms": ["steam", "itchio"],
         "youtubeId": "https://www.youtube.com/embed/vA60y3bpKBs?si=1Pe1XrtFHNQkC5YM",
-        "playLink": "https://store.steampowered.com/app/2726450/Windowkill/"
+        "playLink": "https://store.steampowered.com/app/2726450/"
+    },
+    {
+        "title": "Perfect Vermin",
+        "description": "smoking bad if smoke this happens",
+        "creator": "ItsTheTalia",
+        "releaseDate": "11/6/2020",
+        "multiplayer": false,
+        "money": false,
+        "rank": 0,
+        "platforms": ["steam", "itchio"],
+        "youtubeId": "https://www.youtube.com/embed/UFjwMPEIC7Q?si=GNdzBYgFsNDAxcKb",
+        "playLink": "https://store.steampowered.com/app/1416130/"
     },
 
 
@@ -344,18 +356,6 @@
         "playLink": "https://digdig.io/"
     },
     {
-        "title": "mope.io",
-        "description": "web animal game",
-        "creator": "Stan Tatarnykov",
-        "releaseDate": "11/3/2016",
-        "multiplayer": true,
-        "money": false,
-        "rank": 0,
-        "platforms": ["unknown"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
-        "playLink": "https://mope.io/"
-    },
-    {
         "title": "PLINK!",
         "description": "make music together!",
         "creator": "Dinahmoe",
@@ -399,7 +399,7 @@
         "multiplayer": false,
         "money": true,
         "rank": 0,
-        "platforms": ["unknown"],
+        "platforms": ["steam","unknown"],
         "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
         "playLink": "https://store.steampowered.com/wishlist/profiles/76561199436710471#sort=order"
     },
@@ -534,7 +534,7 @@
     },
     {
         "title": "RBLX Project Remix",
-        "description": "fight with classic roblox items! the items have been upgraded",
+        "description": "fight with classic roblox stuff! the stuff have been upgraded",
         "creator": "@Homemade_Meal",
         "releaseDate": "10/15/2023",
         "multiplayer": true,

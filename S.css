@@ -1,24 +1,19 @@
 body {
-    /* font-family: Arial, sans-serif; */
     background-color: rgb(245, 215, 115);
     color: rgb(245, 245, 205);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /*height: 100vh;*/
 }
 
 hr {
-    width: 550px;
     border-style: solid;
     border-color: rgb(245, 245, 205);
 }
 
-.center {
+.content-main {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-container {
@@ -30,7 +25,6 @@ hr {
 }
 
 .content {
-    flex: 1;
     width: 300px;
     text-align: left;
     word-wrap: break-word;
@@ -55,29 +49,90 @@ hr {
     color: rgb(245, 245, 205);
 }
 
-.button-container {
-    text-align: center;
+
+
+/* game */
+#game-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 5px;
 }
 
-.button-image {
-    background-size: auto;
-    background-position: center;
-}
-
-
-.button {
-    display: inline-block;
-    background-color: rgb(235, 215, 90);
-    color: rgb(245, 245, 205);
-    padding: 10px 20px;
+.game {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid rgb(245, 245, 205);
+    padding: 10px;
     margin: 10px;
-    border: 2px solid transparent;
-    outline: 5px solid rgb(245, 245, 205);
+    height: 250px;
+    width: 100%;
+}
+.game-info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%
+}
+.game-icon {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.game-title {
+    font-size: 50px;
     font-weight: bold;
-    transition: background-color 0.3s;
-    cursor: pointer;
+}
+.game p {
+    margin: 0%;
+}
+.game-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 450px;
+}
+.game-littledetails {
+    margin-top: auto;
 }
 
-.button:hover {
-    background-color: rgb(245, 225, 135)
+.button-container {
+    height: 100%;
+    width: 25%;
+    padding-left: 10px;
+}
+
+.button-play {
+    background-color: rgb(255, 241, 117);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    line-height: 500%;
+    height: 100%;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 1s ease;
+}
+
+.button-play:hover {
+    background-color: rgb(245, 245, 205);
+}
+
+#button-load {
+    background-color: rgb(100, 170, 226);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 1s ease;
 }
