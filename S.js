@@ -68,12 +68,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
-document.getElementById('button').addEventListener('click', function() {
-    //window.open(`https://reals5.github.io/cubegame`)
-    console.log('Button 1 clicked');
-});
-
 nameinput.addEventListener('change', function() {
     localStorage.setItem('name', nameinput.value);
     localStorage.setItem('nameRemembered', true);

@@ -29,8 +29,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 const gamesToShow = sortedGames.slice(0, displayedGamesCount + gamesPerPage);
                 gamesToShow.forEach(game => {
                     const gameElement = document.createElement('div');
-                    gameElement.classList.add('game');
                     const formattedTitle = game.title.replace(/[^\w\s]/gi, '').replace(/\s+/g, '').toLowerCase();
+                    let videoElement = '';
+                    
+                    gameElement.classList.add('game');
+                    
+                    if (game.youtubeId) {
+                        videoElement = `<iframe style="height: 100%; width: 100%;" src="${game.youtubeId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+                    }
+
                     gameElement.innerHTML = `
                         <div class="game-info">
                             <div class="game-title">
@@ -42,7 +49,10 @@ document.addEventListener('DOMContentLoaded', function() {
                                 Creator: ${game.creator} • Release Date: ${game.releaseDate} • Rank: ${game.rank} • ${game.multiplayer ? 'Multiplayer' : 'Singleplayer'} • ${game.money ? 'paid' : 'free'} • ${game.platforms.map(platform => platform.charAt(0).toUpperCase() + platform.slice(1)).join(', ')}
                             </div>
                         </div>
-                        <iframe class="game-gameplay" src="${game.youtubeId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="game-gameplay">
+                            ${videoElement}
+                        </div>
+                        
                         <div class="button-container">
                             <a class="button-play" href="${game.playLink}">PLAY</a>
                         </div>

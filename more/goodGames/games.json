@@ -36,6 +36,18 @@
         "playLink": "https://store.steampowered.com/app/2881650/"
     },
     {
+        "title": "Landfall Archives",
+        "description": "Landfall failed projects all for FREEE",
+        "creator": "Landfall",
+        "releaseDate": "3/31/2023",
+        "multiplayer": true,
+        "money": false,
+        "rank": 0,
+        "platforms": ["steam"],
+        "youtubeId": "https://www.youtube.com/embed/X4xWDjmmt7o?si=-aod7J5qRGAqtsjy&amp;start=19",
+        "playLink": "https://store.steampowered.com/app/2353760/"
+    },
+    {
         "title": "Clone Drone In The Danger Zone",
         "description": "robot fight other robot because that robot is bad also \"watch out\"",
         "creator": "Doborog Games",
@@ -68,7 +80,7 @@
         "money": true,
         "rank": 0,
         "platforms": ["steam"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
+        "youtubeId": "",
         "playLink": "https://store.steampowered.com/app/4000/"
     },
     {
@@ -212,7 +224,7 @@
         "money": true,
         "rank": 0,
         "platforms": ["steam", "itchio"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
+        "youtubeId": "",
         "playLink": "https://store.steampowered.com/app/1086640/"
     },
     {
@@ -224,7 +236,7 @@
         "money": false,
         "rank": 0,
         "platforms": ["itchio"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
+        "youtubeId": "",
         "playLink": "https://mrdrnose.itch.io/votv"
     },
     {
@@ -248,7 +260,7 @@
         "money": false,
         "rank": 0,
         "platforms": ["itchio"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
+        "youtubeId": "",
         "playLink": "https://mjm.itch.io/detritus"
     },
     {
@@ -287,6 +299,91 @@
         "youtubeId": "https://www.youtube.com/embed/UFjwMPEIC7Q?si=GNdzBYgFsNDAxcKb",
         "playLink": "https://store.steampowered.com/app/1416130/"
     },
+    {
+        "title": "Pineapple on pizza",
+        "description": "this is what happens when you put Pineapple on pizza. i didnt say that or it would be controversial",
+        "creator": "Majorariatto",
+        "releaseDate": "3/28/2023",
+        "multiplayer": false,
+        "money": false,
+        "rank": 0,
+        "platforms": ["steam", "itchio"],
+        "youtubeId": "https://www.youtube.com/embed/Lj9W43mxHsE?si=LozwDiy5eVhmGimH",
+        "playLink": "https://store.steampowered.com/app/2263010/"
+    },
+    {
+        "title": "Portal 2",
+        "description": "balls hurt the one in control",
+        "creator": "Valve",
+        "releaseDate": "4/19/2011",
+        "multiplayer": true,
+        "money": false,
+        "rank": 0,
+        "platforms": ["steam"],
+        "youtubeId": "https://www.youtube.com/embed/zcbrC3RCEMg?si=4zF4e5q-tT8uLFO-",
+        "playLink": "https://store.steampowered.com/app/620/"
+    },
+    {
+        "title": "WE BECOME WHAT WE BEHOLD",
+        "description": "news man changes everything",
+        "creator": "Nicky Case",
+        "releaseDate": "7/9/2019",
+        "multiplayer": false,
+        "money": false,
+        "rank": 0,
+        "platforms": ["itchio"],
+        "youtubeId": "",
+        "playLink": "https://ncase.itch.io/wbwwb"
+    },
+    {
+        "title": "game inside a game inside a game inside a game inside a game",
+        "description": "game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game",
+        "creator": "Sam Hogan",
+        "releaseDate": "12/6/2020",
+        "multiplayer": false,
+        "money": false,
+        "rank": 0,
+        "platforms": ["itchio"],
+        "youtubeId": "https://www.youtube.com/embed/-nIfPjFOPlM?si=O4yx_qfaYgemmvMB",
+        "playLink": "https://samhogan.itch.io/game-inside-a-game"
+    },
+    {
+        "title": "GREY-BOX TESTING",
+        "description": "bad game dev",
+        "creator": "Sam Hogan",
+        "releaseDate": "6/20/2020",
+        "multiplayer": false,
+        "money": false,
+        "rank": 0,
+        "platforms": ["itchio"],
+        "youtubeId": "https://www.youtube.com/embed/-fzso4jvaJg?si=vjCADlVsj7WSlQh6",
+        "playLink": "https://samhogan.itch.io/grey-box-testing"
+    },
+    {
+        "title": "VSYNC: OFF",
+        "description": "i usally dont have vsync off its not thatt baddd",
+        "creator": "DevLope",
+        "releaseDate": "6/20/2020",
+        "multiplayer": false,
+        "money": false,
+        "rank": 0,
+        "platforms": ["itchio"],
+        "youtubeId": "",
+        "playLink": "https://devlope.itch.io/vsync-off"
+    },
+    {
+        "title": "Sheepy: A Short Adventure",
+        "description": "a free good game.",
+        "creator": "MrSuicideSheep",
+        "releaseDate": "2/6/2024",
+        "multiplayer": false,
+        "money": false,
+        "rank": 0,
+        "platforms": ["steam", "itchio"],
+        "youtubeId": "https://www.youtube.com/embed/RfT30q4GkYE?si=WFzUd0p2z1AnmrpX&amp;start=7",
+        "playLink": "https://store.steampowered.com/app/1568400/"
+    },
+
 
 
 
@@ -328,7 +425,7 @@
         "money": false,
         "rank": 0,
         "platforms": ["unknown", "googleplay", "appstore"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
+        "youtubeId": "",
         "playLink": "https://diep.io/"
     },
     {
@@ -340,7 +437,7 @@
         "money": false,
         "rank": 0,
         "platforms": ["unknown", "googleplay", "appstore"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
+        "youtubeId": "",
         "playLink": "https://agar.io/"
     },
     {
@@ -352,7 +449,7 @@
         "money": false,
         "rank": 0,
         "platforms": ["unknown"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
+        "youtubeId": "",
         "playLink": "https://digdig.io/"
     },
     {
@@ -364,19 +461,19 @@
         "money": false,
         "rank": 0,
         "platforms": ["unknown"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
+        "youtubeId": "",
         "playLink": "https://plink.in/"
     },
     {
         "title": "One Million Checkboxes",
         "description": "multiplayer checkbox game (it seems its over)",
         "creator": "eieio",
-        "releaseDate": "3/5/2015",
+        "releaseDate": "6/25/2024",
         "multiplayer": true,
         "money": false,
         "rank": 0,
         "platforms": ["unknown"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
+        "youtubeId": "",
         "playLink": "https://onemillioncheckboxes.com/"
     },
     {
@@ -388,7 +485,7 @@
         "money": false,
         "rank": 0,
         "platforms": ["unknown"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
+        "youtubeId": "",
         "playLink": "https://playables.net/"
     },
     {
@@ -400,8 +497,32 @@
         "money": true,
         "rank": 0,
         "platforms": ["steam","unknown"],
-        "youtubeId": "NO_TRAILER_WAIT_FOR_GAMEPLAY_OF_ME__(i_gonna_try_to_make_gameplay_for_each_game)",
+        "youtubeId": "",
         "playLink": "https://store.steampowered.com/wishlist/profiles/76561199436710471#sort=order"
+    },
+    {
+        "title": "Neal.fun",
+        "description": "neal is not boring",
+        "creator": "Neal Agarwal",
+        "releaseDate": "10/26/2017",
+        "multiplayer": false,
+        "money": false,
+        "rank": 0,
+        "platforms": ["unknown"],
+        "youtubeId": "",
+        "playLink": "https://neal.fun/"
+    },
+    {
+        "title": "DON'T YOU LECTURE ME WITH YOUR THIRTY DOLLAR WEBSITE",
+        "description": ":amongus:",
+        "creator": "GD Colon",
+        "releaseDate": "6/13/2022",
+        "multiplayer": false,
+        "money": false,
+        "rank": 0,
+        "platforms": ["unknown"],
+        "youtubeId": "",
+        "playLink": "https://thirtydollar.website/"
     },
 
 
@@ -915,6 +1036,18 @@
         "platforms": ["roblox"],
         "youtubeId": "",
         "playLink": "https://www.roblox.com/games/3422469965/"
+    },
+    {
+        "title": "RBLX Pressure",
+        "description": "soo many easter eggs!",
+        "creator": "Urbanshade: Hadal Division",
+        "releaseDate": "7/7/2024",
+        "multiplayer": true,
+        "money": false,
+        "rank": 0,
+        "platforms": ["roblox"],
+        "youtubeId": "https://www.youtube.com/embed/VvM0-IcOxlY?si=CWkZpfSqOwz5rtA8",
+        "playLink": "https://www.roblox.com/games/12411473842/"
     }
 
 ]

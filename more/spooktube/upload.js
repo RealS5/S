@@ -7,7 +7,7 @@ function upload(file) {
     fileReader.onload = ()=>{
         localStorage.setItem("videoURL", fileReader.result)
         console.log(file);
-        window.location.replace('video/index.html');
+        window.location.replace('video/');
     }
     fileReader.readAsDataURL(file);
 }
