@@ -383,6 +383,18 @@
         "youtubeId": "https://www.youtube.com/embed/RfT30q4GkYE?si=WFzUd0p2z1AnmrpX&amp;start=7",
         "playLink": "https://store.steampowered.com/app/1568400/"
     },
+    {
+        "title": "LOCKDOWN Protocol",
+        "description": "FPS Ch- Among Us",
+        "creator": "Mirage Creative Lab",
+        "releaseDate": "7/22/2024",
+        "multiplayer": true,
+        "money": true,
+        "rank": 0,
+        "platforms": ["steam"],
+        "youtubeId": "",
+        "playLink": "https://store.steampowered.com/app/2780980/"
+    },
 
 
 
@@ -523,6 +535,18 @@
         "platforms": ["unknown"],
         "youtubeId": "",
         "playLink": "https://thirtydollar.website/"
+    },
+    {
+        "title": "What Beats Rock Game",
+        "description": "child labor beats rock.",
+        "creator": "khoi🐟 & kyle🥬",
+        "releaseDate": "7/8/2028",
+        "multiplayer": false,
+        "money": false,
+        "rank": 0,
+        "platforms": ["unknown"],
+        "youtubeId": "",
+        "playLink": "https://www.whatbeatsrock.com/"
     },
 
 
@@ -1048,6 +1072,18 @@
         "platforms": ["roblox"],
         "youtubeId": "https://www.youtube.com/embed/VvM0-IcOxlY?si=CWkZpfSqOwz5rtA8",
         "playLink": "https://www.roblox.com/games/12411473842/"
+    },
+    {
+        "title": "RBLX Stars Align",
+        "description": "looks very good and platformerr",
+        "creator": "Team Nova - Stars Align",
+        "releaseDate": "1/1/2024",
+        "multiplayer": true,
+        "money": false,
+        "rank": 0,
+        "platforms": ["roblox"],
+        "youtubeId": "",
+        "playLink": "https://www.roblox.com/games/15837460390/"
     }
 
 ]
